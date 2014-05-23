@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stratman.shoppingcart" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+        <activity
+            android:name="com.stratman.shoppingcart.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:logo="@drawable/icon2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.stratman.shoppingcart.SettingsActivity"
+            android:label="Settings"
+            android:logo="@drawable/icon2">
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--ListPreference
+        android:title="Change Map Type"
+        android:summary="Change the type of map the application uses."
+        android:key="maptype"
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" /-->
+
+    <CheckBoxPreference
+        android:title="Test Value"
+        android:defaultValue="true"
+        android:summary="This is currently a test value"
+        android:key="checkboxPref" />
+
+</PreferenceScreen>

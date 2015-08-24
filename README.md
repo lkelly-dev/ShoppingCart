@@ -3,4 +3,4 @@ ShoppingCart
 
 A simple shopping list app
 
-![alt tag](http://imgur.com/Xn5EXtu)
+![Alt tag](http://www.imgur.com/Xn5EXtu)
